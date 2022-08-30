@@ -13,9 +13,9 @@
         </head>
     <body>
        
-        <section id="about" class="container">
-            <div class="row">
-            <div id="intro" class="col">
+        <section id="about" class="container px-4">
+            <div class="row gx-5">
+            <div id="intro" class="col-6">
                 <h2 class="header">About <br> Myself</h2>
                 <p class="description">Hello I’m a software developer! I can help you build a product , feature or
                     website
@@ -25,21 +25,21 @@
                 <h2 class="connect">LET’S CONNECT</h2>
                 <ul class="social-links">
                     <div class="row">
-                    <li class="col-1"> <a href="https://twitter.com/Natanim_?t=qAC9kcrqr6RLORU148jXFw&s=09" target="_blank" rel="noopener"
+                    <li class="col-3"> <a href="https://twitter.com/Natanim_?t=qAC9kcrqr6RLORU148jXFw&s=09" target="_blank" rel="noopener"
                             class="social-media-link">
                             <i class="fa-brands fa-twitter fa-2x"></i> </a> </li>
-                    <li class="col-1"> <a href="https://www.linkedin.com/in/natanim-abesha-04a39823a" target="_blank" rel="noopener"
+                    <li class="col-3"> <a href="https://www.linkedin.com/in/natanim-abesha-04a39823a" target="_blank" rel="noopener"
                             class="social-media-link"><i class="fa-brands fa-linkedin fa-2x"></i> </a> </li>
-                    <li class="col-1"> <a href="https://github.com/NatanimA" target="_blank" rel="noopener" class="social-media-link"><i
+                    <li class="col-3"> <a href="https://github.com/NatanimA" target="_blank" rel="noopener" class="social-media-link"><i
                                 class="fa-brands fa-github fa-2x"></i> </a></li>
-                    <li class="col-1"> <a href="https://www.hackerrank.com/natanimabesha" target="_blank" rel="noopener"
+                    <li class="col-3"> <a href="https://www.hackerrank.com/natanimabesha" target="_blank" rel="noopener"
                             class="social-media-link"><i class="fa-brands fa-hackerrank fa-2x"></i> </a></li>
                     </div>
                 </ul>
                 <button class="enabled-btn">Get my resume</button>
             </div>
             
-            <div id="skills-container" class="col">
+            <div id="skills-container" class="col-6">
                 <ul>
                     <li class="skill">
                         <span>Languages</span>
@@ -47,11 +47,13 @@
                     </li>
                     <li>
                         <ul class="skill-lang">
-                            <li class="lang"><img class="lang-logo" src="./assets/js-logo.png" alt="javaScript logo">JavaScript
+                            <div class="row gx-5">
+                            <li class="col-3 lang"><img class="lang-logo" src="./assets/js-logo.png" alt="javaScript logo"><span class="lang-name">JavaScript</span> 
                             </li>
-                            <li class="lang"><img class="lang-logo" src="./assets/html-logo.png" alt="html logo">HTML
+                            <li class="col-3 lang"><img class="lang-logo" src="./assets/html-logo.png" alt="html logo"><span class="lang-name">HTML</span> 
                             </li>
-                            <li class="lang"><img class="lang-logo" src="./assets/css-logo.png" alt="css logo">CSS</li>
+                            <li class="col-3 lang"><img class="lang-logo" src="./assets/css-logo.png" alt="css logo"><span class="lang-name">CSS</span></li>
+                            </div>
                         </ul>
                     </li>
                     <li class="skill">
@@ -87,7 +89,9 @@
                     <label for="form-message-input">Message:</label>
                     <textarea class="form-inputs" id="form-message-input" name="message" maxlength="500" required
                         placeholder="Write your message here"></textarea>
-                    <button id="form-button" class="form-inputs enabled-btn" type="submit">Get in touch</button>
+                    <div class="btn-group">
+                    <button id="form-button" class="form-inputs enabled-btn btn btn-primary" type="submit">Get in touch</button>
+                    </div>
                 </form>
             </div>
 
