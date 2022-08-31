@@ -164,3 +164,78 @@ body.active {
     padding: 20px 42px 23px 12px;
 }
 
+#contacts {
+    background: #6070ff url(../assets/contact-form-background-shape-desktop.png) no-repeat;
+    height: 846px;
+    color: #fff;
+    background-size: 100% 90%;
+    border-top-left-radius: 200px;
+
+}
+
+.form-label {
+    display: none;
+}
+
+#message-text {
+    height: 170px;
+    resize: none;
+    overflow: hidden;
+}
+
+.form-input {
+    background: #FFFFFF;
+    border: 1px solid #CFD8DC;
+    margin-bottom: 27px;
+    border-radius: 2px;
+    width: 447px;
+}
+
+.form {
+    margin-left: 850px;
+}
+
+#contacts-header {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.description-contacts {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 15px;
+    line-height: 28px;
+    color: #EBEBFF;
+    width: 569px;
+    height: 102px;
+}
+
+#contact-me {
+    margin-left: 180px;
+    margin-top: 14px;
+}
+
+#message-text::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #B3BAC5;
+}
+
+.form-input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 20px;
+    color: #172B4D;
+    
+}

@@ -70,30 +70,35 @@
 
         </section>
 
-        <section id="contacts">
-            <div id="contacts-header-wrapper">
+        <section id="contacts" class="container-fluid">
+         <div class="row justify-content-md-center gy-5">
+            <div id="contacts-header-wrapper" class="col col-lg-3">
                 <h2 id="contacts-header">Contact Me</h2>
             </div>
-            <div class="description">
-                <p>If you have an application you are interested in developing, a feature that you need built or a project that
+            <div class="description-contacts row justify-content-md-center gy-2">
+                <p class="col col-4">If you have an application you are interested in developing, a feature that you need built or a project that
                     needs
                     coding. I’d love to help with it</p>
             </div>
             <div class="form">
-                <form id="form-wrapper" action="https://formspree.io/f/xzbwzpyz" method="post">
-                    <label for="name">Full-Name:</label>
-                    <input class="form-inputs" name="Name" id="name" type="text" maxlength="30" required
-                        placeholder="Natanim Abesha">
-                    <label for="email">Email:</label>
-                    <input class="form-inputs" name="Email" id="email" type="email" required placeholder="Natanim@gmail.com">
-                    <label for="form-message-input">Message:</label>
-                    <textarea class="form-inputs" id="form-message-input" name="message" maxlength="500" required
-                        placeholder="Write your message here"></textarea>
-                    <div class="btn-group">
-                    <button id="form-button" class="form-inputs enabled-btn btn btn-primary" type="submit">Get in touch</button>
+                <form class="col justify-content-md-center gy-5" action="https://formspree.io/f/xzbwzpyz" method="post">
+                    <div class="col-5">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" name="Name" class="form-control form-input" id="name" aria-describedby="emailHelp"maxlength="30" required placeholder="Natanim Abesha">
                     </div>
+                    <div class="col-5">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" name="Email" class="form-control form-input" id="email" aria-describedby="emailHelp" required placeholder="Natanim@gmail.com">
+                    </div>
+                    <div class="form-floating col-5">
+                        <label class="form-label" for="floatingTextarea2">Message</label>
+                        <textarea id="message-text" class="form-control" placeholder="Write your message here" id="floatingTextarea2" maxlength="500" required></textarea>
+                    </div>
+                    <button type="submit" class="enabled-btn" id="contact-me">Get in touch</button>
                 </form>
             </div>
+
+        </div>
 
         </section>
 
