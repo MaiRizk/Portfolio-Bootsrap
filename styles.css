@@ -1,0 +1,32 @@
+.primary {
+  color: #6070FF;
+}
+
+.primary-border {
+  border-color: #6070FF;
+}
+
+.secondary {
+  color: #344563;
+}
+
+.gray {
+  color: #6B778C;
+}
+
+.primary-bg {
+  background-color: #EBEBFF;
+}
+
+.info-container {
+  background: url(./images/desktop-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: white;
+  border-bottom-left-radius: 80px;
+}
+
+.info {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
