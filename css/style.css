@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
+
+
 body{
     overflow-x: hidden;
 }
+
 #about{
     height: 700px;
     margin-top: 140px;
-    border-top-right-radius:150px ;
+    border-top-left-radius:150px ;
    
 }
 
 #about .header {
-    margin-top: 30px;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -54,10 +56,6 @@ body{
     font-family: 'Poppins';
     font-style: normal;
     width: 447px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 12px;
     margin-bottom: 12px;
 }
 
@@ -226,5 +224,15 @@ body{
     font-size: 13px;
     line-height: 20px;
     color: #172B4D;
+    
+}
+
+@media only screen and (max-width:768px) {
+
+ #about {
+    height: 100vh;
+    margin-bottom: 400px;
+ }
+
     
 }
