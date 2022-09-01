@@ -50,7 +50,7 @@ body {
 }
 
 #intro .description {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins" Arial, Helvetica, sans-serif;
   font-style: normal;
   width: 447px;
   margin-bottom: 12px;
@@ -127,7 +127,7 @@ body {
   margin-right: 16px;
   display: block;
   margin-top: 16px;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins" Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -183,7 +183,7 @@ body {
 
 #contacts-header {
   text-align: center;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins" Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -192,7 +192,7 @@ body {
 
 .description-contacts {
   text-align: center;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins" Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 10;
   font-size: 15px;
@@ -208,7 +208,7 @@ body {
 }
 
 #message-text::placeholder {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins" Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -217,7 +217,7 @@ body {
 }
 
 .form-input::placeholder {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins" Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 13px;
@@ -226,8 +226,8 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    #about {
-	height: 100vh;
-	margin-bottom: 400px;
-    }
+  #about {
+    height: 100vh;
+    margin-bottom: 400px;
+  }
 }
