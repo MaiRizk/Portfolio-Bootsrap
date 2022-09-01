@@ -38,9 +38,7 @@
 				</ul>
 			</nav>
 		</header>
-		<div
-			style="background-color: #e5e5e5; margin-bottom: 100px; overflow: hidden"
-		>
+		<div class="main-container p-0">
 			<section class="info-container">
 				<div class="info w-75 mx-auto">
 					<h1 class="fs-1 fw-bold lh-base pb-3">
@@ -87,10 +85,7 @@
 				</div>
 			</section>
 			<section>
-				<div
-					class="card w-75 mx-auto d-flex flex-row p-4"
-					style="margin-top: 140px; max-height: 496px"
-				>
+				<div class="card w-75 mx-auto d-flex flex-row p-4 card-common">
 					<img src="./images/tonic.svg" class="rounded w-50" alt="card-img" />
 					<div class="card-content w-50 ps-5 pt-3">
 						<h3 class="fs-1 fw-bold pb-2">Tonic</h3>
@@ -124,10 +119,7 @@
 						</button>
 					</div>
 				</div>
-				<div
-					class="card w-75 mx-auto d-flex flex-row p-4"
-					style="margin-top: 140px; max-height: 496px"
-				>
+				<div class="card w-75 mx-auto d-flex flex-row p-4 card-common">
 					<div class="card-content w-50 pe-5 pt-3">
 						<h3 class="fs-1 fw-bold pb-2 text-end">Tonic</h3>
 						<div class="fs-6 mb-4 text-end">
@@ -167,10 +159,7 @@
 						alt="card-img"
 					/>
 				</div>
-				<div
-					class="card w-75 mx-auto d-flex flex-row p-4"
-					style="margin-top: 140px; max-height: 496px"
-				>
+				<div class="card w-75 mx-auto d-flex flex-row p-4 card-common">
 					<img
 						src="./images/multipost2.jpg"
 						class="rounded w-50"
@@ -208,10 +197,7 @@
 						</button>
 					</div>
 				</div>
-				<div
-					class="card w-75 mx-auto d-flex flex-row p-4"
-					style="margin: 140px 0; max-height: 496px"
-				>
+				<div class="card w-75 mx-auto d-flex flex-row p-4 card-common last">
 					<div class="card-content w-50 pe-5 pt-3">
 						<h3 class="fs-1 fw-bold pb-2 text-end">Tonic</h3>
 						<div class="fs-6 mb-4 text-end">
@@ -254,7 +240,7 @@
 			</section>
 		</div>
 
-		<section class="about container" id="about">
+		<section class="about" id="about">
 			<div class="row gx-5 m-lg-4">
 				<div id="intro" class="col col-lg-6 col-sm-12">
 					<h2 class="header fw-700 fz-40 lh-52 clr-n-800">
@@ -319,31 +305,31 @@
 							<span><i class="fa-solid fa-chevron-down"></i></span>
 						</li>
 						<li>
-							<ul class="skill-lang">
+							<div class="skill-lang">
 								<div class="row row-cols-sm-6 gx-5">
-									<li class="col-lg-3 col-sm-12 rounded-5 w-10 lang">
+									<div class="col-lg-3 col-sm-12 rounded-5 w-10 lang">
 										<img
 											class="lang-logo"
 											src="./assets/js-logo.png"
 											alt="javaScript logo"
 										/><span class="lang-name">JavaScript</span>
-									</li>
-									<li class="col-lg-3 col-sm-12 rounded-5 w-10 lang">
+									</div>
+									<div class="col-lg-3 col-sm-12 rounded-5 w-10 lang">
 										<img
 											class="lang-logo"
 											src="./assets/html-logo.png"
 											alt="html logo"
 										/><span class="lang-name">HTML</span>
-									</li>
-									<li class="col-lg-3 col-sm-12 rounded-5 w-10 lang">
+									</div>
+									<div class="col-lg-3 col-sm-12 rounded-5 w-10 lang">
 										<img
 											class="lang-logo"
 											src="./assets/css-logo.png"
 											alt="css logo"
 										/><span class="lang-name">CSS</span>
-									</li>
+									</div>
 								</div>
-							</ul>
+							</div>
 						</li>
 						<li class="skill">
 							<span>Frameworks</span>
@@ -377,37 +363,34 @@
 						method="post"
 					>
 						<div class="col-5">
-							<label for="name" class="form-label">Name</label>
+							<label class="form-label">Name</label>
 							<input
 								type="text"
 								name="Name"
 								class="form-control form-input"
 								id="name"
-								aria-describedby="emailHelp"
 								maxlength="30"
 								required
 								placeholder="Natanim Abesha"
 							/>
 						</div>
 						<div class="col-5">
-							<label for="email" class="form-label">Email address</label>
+							<label class="form-label">Email address</label>
 							<input
 								type="email"
 								name="Email"
 								class="form-control form-input"
 								id="email"
-								aria-describedby="emailHelp"
 								required
 								placeholder="Natanim@gmail.com"
 							/>
 						</div>
 						<div class="form-floating col-5">
-							<label class="form-label" for="floatingTextarea2">Message</label>
+							<label class="form-label">Message</label>
 							<textarea
 								id="message-text"
 								class="form-control"
 								placeholder="Write your message here"
-								id="floatingTextarea2"
 								maxlength="500"
 								required
 							></textarea>

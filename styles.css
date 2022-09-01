@@ -18,6 +18,13 @@
   background-color: #ebebff;
 }
 
+.main-container {
+  background-color: #e5e5e5; 
+  margin-bottom: 100px; 
+  overflow: hidden;
+  max-width: unset;
+}
+
 .info-container {
   background: url(./images/desktop-bg.svg);
   background-repeat: no-repeat;
@@ -29,4 +36,13 @@
 .info {
   padding-top: 170px;
   padding-bottom: 170px;
+}
+
+.card-common {
+  margin-top: 140px; 
+  max-height: 496px;
+}
+
+.last {
+  margin-bottom: 140px;
 }
